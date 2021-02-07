@@ -1,0 +1,15 @@
+{
+  "name": "yuriy/home-work6",
+  "authors": [
+    {
+      "name": "yuriy",
+      "email": "yuralucky83@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Hillel\\": "src"
+    }
+  }
+}
