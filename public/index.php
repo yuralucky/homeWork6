@@ -32,6 +32,7 @@ for ($i = 1; $i <= 10; $i++) {
     $tag->save();
 }
 $tags = Tag::all();
+
 foreach ($tags as $tag) {
     for ($i = 1; $i < 4; $i++) {
         $tag->posts()->attach(Post::all()->random());
