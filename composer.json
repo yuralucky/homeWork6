@@ -3,13 +3,17 @@
   "authors": [
     {
       "name": "yuriy",
-      "email": "yuralucky83@gmail.com"
+      "email": "yuralucky@gmail.com"
     }
   ],
-  "require": {},
+  "require": {
+    "ext-json": "*",
+    "illuminate/database": "^7.22",
+    "illuminate/events": "^7.22"
+  },
   "autoload": {
     "psr-4": {
-      "Hillel\\Eloquent\\": "src"
+      "Hillel\\": "./src"
     }
   }
 }
